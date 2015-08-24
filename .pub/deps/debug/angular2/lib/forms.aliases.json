@@ -1,0 +1,8 @@
+{
+  "formInjectables": {
+    "kind": "alias",
+    "value": [
+      "FormBuilder"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "coreDirectives": {
+    "kind": "alias",
+    "value": [
+      "NgFor",
+      "NgIf",
+      "NgNonBindable",
+      "NgSwitch",
+      "NgSwitchWhen",
+      "NgSwitchDefault"
+    ]
+  }
+}

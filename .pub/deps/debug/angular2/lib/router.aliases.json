@@ -1,0 +1,9 @@
+{
+  "routerDirectives": {
+    "kind": "alias",
+    "value": [
+      "RouterOutlet",
+      "RouterLink"
+    ]
+  }
+}

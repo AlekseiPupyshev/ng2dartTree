@@ -1,4 +1,6 @@
 <div class="tree_main_container">
+    <input type="button" (click)="randomizeListMethod()" value="PERMUTE">
+    <input type="button" (click)="moveListMethod()" value="Move">
     <h1>{{name}}</h1>
     <span *ng-for="#itemName of itemNames">
         <item [model]="itemName"></item>

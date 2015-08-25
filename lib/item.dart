@@ -1,15 +1,13 @@
 library ng2dartTree.item;
 
 import 'package:angular2/angular2.dart';
-@Component(selector: 'item')
+@Component(selector: 'item', properties: const ['itemName: model'])
 @View(templateUrl: 'item.html', directives: const [CSSClass])
 class Item{
   String itemName;
   bool isSelected = false;
-  Item(@Attribute('name') name){
-    itemName = name;
-  }
   onItemClick(){
     isSelected = !isSelected;
+    print("onItemClick: $itemName");
   }
 }
